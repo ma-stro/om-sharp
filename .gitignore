@@ -4,10 +4,11 @@
 *~
 *.lisp#
 
-om/*.app/**/*
-om#/**/*
+*.app/**/*
 *.zip
 *.exe
+
+om-sharp
 
 # OS generated files #
 ######################
@@ -20,16 +21,10 @@ Thumbs.db
 
 **/reference-pages/
 
-BUILD/**/*
+_BUILD/**/*
 codesign.sh
 notarize.sh
 VERSION
 
 *.sublime-*
-
-Gemfile.lock
-**/_site/**
-/om/om7-alpha
-/om/om7-beta
-/om/om-sharp
-**/docs/_temp/**
+.vscode
